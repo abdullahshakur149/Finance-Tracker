@@ -1,0 +1,79 @@
+/* navbar.css */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --background-color: #f5f5f5;
+    --text-color: #333;
+  }
+
+  /* * Buttons */ */
+.btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  transition: background-color 0.3s ease;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: var(--text-color);
+}
+
+/* Paragraphs */
+p {
+  color: var(--text-color);
+}
+  
+/* Style the navbar container */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the navbar links */
+  .navbar a {
+    font-size: 20px;
+    color: #f4cb5b !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Change the color of navbar links on hover */
+  .navbar a:hover {
+    font-size: 25px !important;
+
+  }
+  
+  /* Style the active navbar link */
+  .navbar a.active {
+    color: #007bff;
+  }
+  
+  /* Style the navbar button */
+  .navbar .btn {
+    background-color: #fcc030;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-left: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Change the background color of the button on hover */
+  .navbar .btn:hover {
+    background-color:  #f4cc5b;
+  }
+  
+  /* Style the logo image */
+.logo-img {
+    width: 170px; /* Adjust the width as needed */
+    margin-left: 20px;
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align vertically with the text */
+    margin-right: 10px; /* Add some spacing between the logo and text */
+  }

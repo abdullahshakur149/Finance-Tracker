@@ -1,0 +1,86 @@
+ <!-- Sidebar -->
+ <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+    <!-- Sidebar - Brand -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/dashboard">
+        <div class="sidebar-brand-icon">
+            <i class="fas fa-dollar-sign"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Financial Dashboard</div>
+    </a>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider my-0">
+
+    <!-- Nav Item - Dashboard -->
+    <li class="nav-item active">
+        <a class="nav-link" href="#">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Dashboard</span>
+        </a>
+    </li>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider">
+
+    <!-- Expenses Dropdown -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseExpenses"
+           aria-expanded="true" aria-controls="collapseExpenses">
+            <i class="fas fa-fw fa-dollar-sign"></i>
+            <span>Expenses</span>
+        </a>
+        <div id="collapseExpenses" class="collapse" aria-labelledby="headingExpenses"
+             data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" href="#">View Expenses</a>
+                <a class="collapse-item" href="#">Add New Expense</a>
+                <a class="collapse-item" href="#">Expense Categories</a>
+                <a class="collapse-item" href="#">Budgeting</a>
+            </div>
+        </div>
+    </li>
+
+    <!-- Savings Dropdown -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSavings"
+           aria-expanded="true" aria-controls="collapseSavings">
+            <i class="fas fa-fw fa-piggy-bank"></i>
+            <span>Savings</span>
+        </a>
+        <div id="collapseSavings" class="collapse" aria-labelledby="headingSavings"
+             data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" href="#">View Savings</a>
+                <a class="collapse-item" href="#">Add New Savings</a>
+                <a class="collapse-item" href="#">Savings Goals</a>
+            </div>
+        </div>
+    </li>
+
+    <!-- Income Dropdown -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseIncome"
+           aria-expanded="true" aria-controls="collapseIncome">
+            <i class="fas fa-fw fa-money-bill-alt"></i>
+            <span>Income</span>
+        </a>
+        <div id="collapseIncome" class="collapse" aria-labelledby="headingIncome"
+             data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" href="#">View Income</a>
+                <a class="collapse-item" href="#">Add New Income</a>
+                <a class="collapse-item" href="#">Income Sources</a>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- Sidebar Toggler (Sidebar) -->
+    <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+    </div>
+
+</ul>
+
+<!-- End of Sidebar -->
